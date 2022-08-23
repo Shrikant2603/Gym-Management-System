@@ -82,6 +82,7 @@ public class UpdateDeleteMember extends javax.swing.JFrame {
 
         jTextField1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
 
+        jButton2.setBackground(new java.awt.Color(204, 204, 204));
         jButton2.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 153, 153));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/search.png"))); // NOI18N
@@ -97,36 +98,37 @@ public class UpdateDeleteMember extends javax.swing.JFrame {
         jLabel3.setText("Name");
 
         jTextField2.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jTextField2.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField2.setForeground(new java.awt.Color(0, 102, 153));
 
         jLabel4.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 153, 153));
         jLabel4.setText("Mobile number");
 
         jTextField3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jTextField3.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField3.setForeground(new java.awt.Color(0, 102, 153));
 
         jLabel5.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 153, 153));
         jLabel5.setText("Email");
 
         jTextField4.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jTextField4.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField4.setForeground(new java.awt.Color(0, 102, 153));
 
         jLabel6.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 153, 153));
         jLabel6.setText("Gender");
 
         jTextField5.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jTextField5.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField5.setForeground(new java.awt.Color(0, 102, 153));
 
         jLabel7.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(0, 153, 153));
         jLabel7.setText("Father name");
 
         jTextField6.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jTextField6.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField6.setForeground(new java.awt.Color(0, 102, 153));
 
+        jButton3.setBackground(new java.awt.Color(204, 204, 204));
         jButton3.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jButton3.setForeground(new java.awt.Color(0, 153, 153));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/save.png"))); // NOI18N
@@ -137,6 +139,7 @@ public class UpdateDeleteMember extends javax.swing.JFrame {
             }
         });
 
+        jButton4.setBackground(new java.awt.Color(204, 204, 204));
         jButton4.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jButton4.setForeground(new java.awt.Color(0, 153, 153));
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/delete.png"))); // NOI18N
@@ -147,6 +150,7 @@ public class UpdateDeleteMember extends javax.swing.JFrame {
             }
         });
 
+        jButton5.setBackground(new java.awt.Color(204, 204, 204));
         jButton5.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jButton5.setForeground(new java.awt.Color(0, 153, 153));
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/reset.png"))); // NOI18N
@@ -162,35 +166,35 @@ public class UpdateDeleteMember extends javax.swing.JFrame {
         jLabel8.setText("Mother name");
 
         jTextField7.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jTextField7.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField7.setForeground(new java.awt.Color(0, 102, 153));
 
         jLabel9.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(0, 153, 153));
         jLabel9.setText("Gym time");
 
         jTextField8.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jTextField8.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField8.setForeground(new java.awt.Color(0, 102, 153));
 
         jLabel10.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(0, 153, 153));
         jLabel10.setText("Aadhar number");
 
         jTextField9.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jTextField9.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField9.setForeground(new java.awt.Color(0, 102, 153));
 
         jLabel11.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(0, 153, 153));
         jLabel11.setText("Age");
 
         jTextField10.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jTextField10.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField10.setForeground(new java.awt.Color(0, 102, 153));
 
         jLabel12.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(0, 153, 153));
         jLabel12.setText("Amount to pay/month");
 
         jTextField11.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
-        jTextField11.setForeground(new java.awt.Color(0, 204, 204));
+        jTextField11.setForeground(new java.awt.Color(0, 102, 153));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
