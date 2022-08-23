@@ -55,20 +55,20 @@ public class login extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 140, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1300, 30, -1, -1));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 1, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("SansSerif", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 153, 255));
         jLabel1.setText("LOGIN");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 170, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 170, -1, -1));
 
-        jLabel2.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 0, 0));
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/close.png"))); // NOI18N
         jLabel2.setText("Incorrect username or password");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 240, -1, -1));
 
-        jTextField1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(0, 153, 255));
         jTextField1.setText("Enter username");
         jTextField1.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -86,7 +86,7 @@ public class login extends javax.swing.JFrame {
         });
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 280, 300, -1));
 
-        jPasswordField1.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jPasswordField1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jPasswordField1.setForeground(new java.awt.Color(0, 153, 255));
         jPasswordField1.setText("Enter password");
         jPasswordField1.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -99,6 +99,7 @@ public class login extends javax.swing.JFrame {
         });
         getContentPane().add(jPasswordField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 320, 300, -1));
 
+        jButton2.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 153, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/login.png"))); // NOI18N
         jButton2.setText("Login");
@@ -109,6 +110,7 @@ public class login extends javax.swing.JFrame {
         });
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 380, -1, -1));
 
+        jCheckBox1.setFont(new java.awt.Font("SansSerif", 1, 14)); // NOI18N
         jCheckBox1.setForeground(new java.awt.Color(0, 153, 255));
         jCheckBox1.setText("Show Password");
         jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
